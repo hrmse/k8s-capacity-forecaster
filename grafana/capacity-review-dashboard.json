@@ -1,0 +1,15 @@
+{
+  "panels": [
+    {
+      "datasource": {"type": "prometheus", "uid": "${DS_PROMETHEUS}"},
+      "gridPos": {"h": 8, "w": 24, "x": 0, "y": 0},
+      "id": 1,
+      "title": "Capacity recommendation state",
+      "targets": [{"expr": "capacity_forecaster_recommendation_state", "refId": "A"}],
+      "type": "table"
+    }
+  ],
+  "schemaVersion": 39,
+  "title": "Kubernetes Capacity Review",
+  "uid": "k8s-capacity-review"
+}

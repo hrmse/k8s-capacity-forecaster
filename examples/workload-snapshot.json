@@ -1,0 +1,30 @@
+{
+  "observations": [
+    {
+      "namespace": "payments",
+      "workload": "checkout-api",
+      "container": "api",
+      "request_millicores": 250,
+      "limit_millicores": 500,
+      "peak_millicores": 310,
+      "p95_millicores": 270,
+      "request_mebibytes": 256,
+      "limit_mebibytes": 512,
+      "peak_mebibytes": 210,
+      "p95_mebibytes": 190
+    },
+    {
+      "namespace": "payments",
+      "workload": "report-worker",
+      "container": "worker",
+      "request_millicores": 1000,
+      "limit_millicores": 1500,
+      "peak_millicores": 420,
+      "p95_millicores": 390,
+      "request_mebibytes": 1024,
+      "limit_mebibytes": 1536,
+      "peak_mebibytes": 400,
+      "p95_mebibytes": 360
+    }
+  ]
+}
